@@ -1,0 +1,36 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local Python and Conda environments
+.venv/
+venv/
+env/
+ENV/
+conda-env/
+
+# Jupyter checkpoints and generated notebook exports
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# Build and package output
+build/
+dist/
+*.egg-info/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Operating-system metadata
+.DS_Store
+Thumbs.db
+Desktop.ini
+__MACOSX/
